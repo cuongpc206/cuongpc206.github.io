@@ -1,0 +1,58 @@
+body{
+	height: 1000px;
+    background: white;
+}
+#fixed{
+	height: 70px;
+	line-height: 70px;
+    color: red;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: white;
+}
+.bottom{
+    height: 100px;
+	margin-top: 600px;
+ 	background: yellow;
+}
+
+#fixed img{
+	max-width: 70px;
+	float: left;
+}
+
+#main-menu {
+	float: right;
+	font-size: 18px;
+	color: red;
+	width: 50%;
+	text-decoration: none;
+}
+
+.wrap{
+	max-width: 1200px;
+	margin: auto;
+
+}
+.box{
+	border: 1px solid gray;
+	border-top-width: 5px;
+	line-height: 25px;
+	padding: 15px
+}
+
+.box i{
+	text-indent: 50px;
+}
+
+
+#main-content{
+	float:right;
+	width: 70%;
+}
+
+#main-phu{
+	float: left;
+	width: 30%;
+}
