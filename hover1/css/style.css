@@ -1,0 +1,26 @@
+
+*{
+	box-sizing: border-box;
+}
+.bai1{
+	width: 200px;
+	height: 100px;
+	background-color: blue;
+	border: 5px solid white;
+	border-radius: 20px;
+	transition: 1s;
+	display: block;
+
+}
+.bai1:hover{
+	background-color: red;
+	border-radius: 50px;
+	transition: 1s;
+	transform: scale(0.8);
+}
+
+p{
+	color: white;
+	text-align: center;
+	margin-top: 40px;
+}

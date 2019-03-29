@@ -1,0 +1,32 @@
+
+*{
+	box-sizing: border-box;
+}
+img{
+	width: 200px;
+	height: 200px;
+}
+
+
+.wrap{
+	height: 650px;
+	width: 650px;
+}
+
+.logo{
+	float: left;
+	width: 33.333333%;
+	border: 1px solid white;
+	border-top-width: 5px;
+
+}
+
+.thumb1{
+	padding: 1px;
+	cursor: pointer;
+	transition: all 0.5s linear;
+}
+
+.thumb1:hover{
+	transform: scale(1.2);
+}
