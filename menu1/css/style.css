@@ -1,0 +1,115 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: Roboto,sans-serif;
+}
+
+#menu ul{
+	list-style-type: none;
+	background-color: #f1f1f1;
+	text-align: center;
+}
+
+#menu ul li{
+	display: inline-table;
+	width: 130px;
+	height: 40px;
+	line-height: 40px;
+	position: relative;
+}
+
+#menu ul li a{
+	color: black;
+	text-decoration: none;
+	display: block;
+}
+
+#menu ul li a:hover{
+	color:#65509e;
+	background-color: gray;
+}
+
+.menu1{
+	width: 550px;
+}
+
+
+#menu ul li>.menu1{
+	display: none;
+	position: absolute;
+}
+
+#menu ul li:hover .menu1{
+	display: block;
+	background-color: #f1f1f1;
+}
+
+.menu2{
+	width: 550px;
+}
+
+#menu ul li>.menu2{
+	display: none;
+	position: absolute;
+}
+
+#menu ul li:hover .menu2{
+	display: block;
+	background-color: #f1f1f1;
+}
+
+.menu3{
+	width: 550px;
+}
+
+#menu ul li>.menu3{
+	display: none;
+	position: absolute;
+}
+
+#menu ul li:hover .menu3{
+	display: block;
+	background-color: #f1f1f1;
+}
+
+.menu4{
+	width: 550px;
+}
+
+#menu ul li>.menu4{
+	display: none;
+	position: absolute;
+}
+
+#menu ul li:hover .menu4{
+	display: block;
+	background-color: #f1f1f1;
+}
+
+.menu5{
+	width: 550px;
+}
+
+#menu ul li>.menu5{
+	display: none;
+	position: absolute;
+}
+
+#menu ul li:hover .menu5{
+	display: block;
+	background-color: #f1f1f1;
+}
+
+#menu ul li>.menu6{
+	display: none;
+	position: absolute;
+}
+
+#menu ul li:hover .menu6{
+	display: block;
+	background-color: #f1f1f1;
+}
