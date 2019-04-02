@@ -1,0 +1,116 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+img{
+	max-width: 25%;
+}
+
+h1{
+	text-align: center;
+	font-family: sans-serif;
+}
+
+a{
+	font-size: 20px;
+	text-decoration: none;
+	padding-left: 150px;
+}
+
+
+#list {
+	overflow: hidden;
+}
+
+
+#list .menu1 img{
+	transition: all 0.5s linear;
+	padding-left: 20px;
+}
+
+#list .menu1:hover img{
+	transform: scale(1.2);
+	opacity: 0.8;
+}
+
+#list .menu2 img{
+	transition: all 0.5s linear;
+	padding-left: 20px;
+}
+
+#list .menu2:hover img{
+	transform: scale(1.2);
+	opacity: 0.8;
+}
+
+#list .menu3 img{
+	transition: all 0.5s linear;
+	padding-left: 20px;
+}
+
+#list .menu3:hover img{
+	transform: scale(1.2);
+	opacity: 0.8;
+}
+
+#list .menu4 img{
+	transition: all 0.5s linear;
+	padding-left: 20px;
+}
+
+#list .menu4:hover img{
+	transform: scale(1.2);
+	opacity: 0.8;
+}
+
+#list .menu5 img{
+	transition: all 0.5s linear;
+	padding-left: 20px;
+}
+
+#list .menu5:hover img{
+	transform: scale(1.2);
+	opacity: 0.8;
+}
+
+#list .menu6 img{
+	transition: all 0.5s linear;
+	padding-left: 20px;
+}
+
+#list .menu6:hover img{
+	transform: scale(1.2);
+	opacity: 0.8;
+}
+
+#list .menu7 img{
+	transition: all 0.5s linear;
+	padding-left: 20px;
+}
+
+#list .menu7:hover img{
+	transform: scale(1.2);
+	opacity: 0.8;
+}
+
+#list .menu8 img{
+	transition: all 0.5s linear;
+	padding-left: 20px;
+}
+
+#list .menu8:hover img{
+	transform: scale(1.2);
+	opacity: 0.8;
+}
+
+#list .menu9 img{
+	transition: all 0.5s linear;
+	padding-left: 20px;
+}
+
+#list .menu9:hover img{
+	transform: scale(1.2);
+	opacity: 0.8;
+}
