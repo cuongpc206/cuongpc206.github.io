@@ -1,0 +1,36 @@
+
+.box{
+	height: 196px;
+	float: left;
+	width: 200px;
+	margin:0 auto;
+	background-color: gray;
+}
+input{
+	width: 196px;
+	height: 30px;
+	padding: 0 5px;
+	margin: 2px;
+    font-size: 20px;
+    box-shadow: 0px 0px 0px gray;
+    box-sizing: border-box;
+}
+button {
+	width: 42px;
+	height: 30px;
+	margin-left:5px;
+	margin-bottom:2px; 
+    font-size: 22px; 
+    font-weight: 500;
+    border-radius: 5px;
+    padding: 0;
+}
+
+#box-1{
+	width: 93px;
+	height: 30px;
+}
+button:hover {
+  background-color: black;
+  color: white;
+}
