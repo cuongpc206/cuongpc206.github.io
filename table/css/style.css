@@ -1,0 +1,31 @@
+* {
+	box-sizing: border-box;
+}
+
+table, td, th{
+	border: 1px solid gray;
+	border-collapse: collapse;
+}
+
+td,th{
+	padding: 20px;
+	
+}
+
+img{
+	max-width: 150px;
+}
+
+.wrap .pick img{
+	transition: all 0.5s linear;
+	padding: 5px;
+}
+
+.wrap .pick:hover img{
+	transform: scale(1.2);
+	opacity: 0.8;
+}
+
+.click{
+	font-size: 20px;
+}

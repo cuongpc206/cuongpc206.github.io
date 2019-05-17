@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+	<head>
+		<title>facebook</title>
+		<meta charset="uft-8"/>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+
+	<body>
+	<form action="result.html">
+		<div class="wrap">
+			<h1>Đăng kí</h1>
+
+			<p><b>Luôn luôn miễn phí</b></p>
+
+			<div class="one">
+				<input type="text" name="lastname" id="lastname" placeholder="Họ">
+				<input type="text" name="fisrtname" id="firstname" placeholder="Tên"><br/><br/>
+				<input type="email" name="number" id="number" placeholder="Số di động"><br/><br/>
+				<input type="text" name="password" id="password" placeholder="Mật khẩu mới">
+
+			</div>
+
+			<h2>Ngày sinh</h2>
+
+			<select id="day"></select>
+			<select id="month"></select>
+			<select id="year"></select>
+
+			<br/>
+			<br/>
+
+			<label><input type="radio" name="gender" value="female"> Nữ</label>
+			<label><input type="radio" name="gender" value="male"> Nam</label>
+
+			<br/><br/>
+
+			<button onclick="dangki" id="click">Đăng kí</button>
+			
+		</div>
+		<script src="js/script.js"></script>
+	</form>
+	</body>
+</html>
