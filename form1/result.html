@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>result</title>
+    <meta charset="uft-8" />
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <h1>Chúc mừng bạn đã đăng kí thành công</h1>
+    <p id="check1"></p>
+
+    <script src="js/script.js"></script>
+    <script type="text/javascript">
+        let str = decodeURIComponent(window.location.href);
+        let n = str.slice(str.indexOf("?") + 1);
+        let y = n.replace(/&/g, "<br>");
+        let x = y.replace(/=/g, ": ")
+        let z = x.split('+').join(' ')
+        document.getElementById("check1").innerHTML = z;
+        let a = str.split(':');
+        for (i = 0; i < str.length; i++) {
+        }
+    </script>
+
+</body>
+
+</html>

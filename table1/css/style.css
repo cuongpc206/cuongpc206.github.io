@@ -1,0 +1,71 @@
+* {
+	box-sizing: border-box;
+}
+
+table, td, th{
+	border: 1px solid gray;
+	border-collapse: collapse;
+}
+
+td,th{
+	padding: 20px;
+	
+}
+
+h1{
+	font-size: 40px;
+}
+
+td{
+	font-size: 20px;
+
+}
+
+img{
+	max-width: 200px;;
+}
+
+.click{
+	font-size: 20px;
+}
+
+table, th, td {
+	border: .5px solid #c5c5c5;
+	border-collapse: collapse;
+}
+
+tr:hover {     
+	background-color:gray  !important;
+}
+
+.wrap .pick1:hover img{
+	transform: scale(1.2);
+	opacity: 0.8;
+}
+.wrap .pick1 img{
+	transition: all 0.5s linear;
+}
+
+.wrap .pick2:hover img{
+	transform: scale(1.2);
+	opacity: 0.8;
+}
+.wrap .pick2 img{
+	transition: all 0.5s linear;
+}
+
+.wrap .pick3:hover img{
+	transform: scale(1.2);
+	opacity: 0.8;
+}
+.wrap .pick3 img{
+	transition: all 0.5s linear;
+}
+
+.wrap .pick4:hover img{
+	transform: scale(1.2);
+	opacity: 0.8;
+}
+.wrap .pick4 img{
+	transition: all 0.5s linear;
+}
