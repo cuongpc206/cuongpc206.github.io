@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+body{
+    font-family: 'Lato', sans-serif ;
+}
+
+.phan1{
+    background-image: url(../img/Hero.png);
+    background-size: cover;
+    width: 100%;
+    height: 1000px;
+}
+
+.text{
+    color: #ffffff ;
+    font-size: 18px;
+}
+
+
+
+.container1{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.navbar{
+    padding-left: 0px;
+    padding-top: 50px;
+}
+
+.row{
+    margin-left: 0px ;
+}
+
+.text1{
+    color: #ffffff ;
+    font-size: 50px;
+}
+
+.text2{
+    color: #ffffff ;
+    font-size: 16px;
+}
+
+.form-control{
+    background-color: rgba(0, 0, 0, 0) !important;
+    border: 0;
+    border-bottom: 1px #fff solid ;
+    border-radius: 0;
+    width: 220px;
+}
+
+::placeholder {
+    color: white !important;
+    opacity: 1;
+  }
+
+.btn{
+    background-color: #058ba0;
+    color:white;
+    height: 50px;
+}
+
+.input1{
+    width: 30% ;
+}
+.input1{
+    width: 30%;
+}
+
+.input3{
+    margin-left: 100px;
+    width: 20%;
+}
+
+.img{
+    padding-left: 30px;
+}
+
+.icon1{
+    font-size: 18px;
+}
+
+.icon1-1{
+    font-size: 16px;
+}
+
+.phan1{
+    position: relative;
+}
+
+.row1{
+    position: absolute;
+	bottom:-30%;
+	left: 50%;
+	transform: translate(-50%)
+}
+
+@media screen and (max-width:700px) {
+   .row1{
+       position: relative;
+   }
+
+}
+
+.row1{
+    height: 500px;
+    border: 1px gray solid;
+    box-shadow: rgba(158, 148, 148, 0);
+    background-color: #fff;
+}
+
+.container2{
+    margin-top: 300px;
+}
+
+.next{
+    float: right;
+    margin-top: -40px;
+}
+
+.next1{
+    padding-left: 20px;
+}
+
+/* anh1 */
+.row2{
+    position: relative;
+    overflow: hidden;
+}
+
+.box{
+    position: absolute;
+    top: 61.5%;
+    opacity: 0;
+    transition: all 1s linear;
+    text-align: center;
+    background-color: gray;
+}
+
+.row2:hover .box{
+    top: 61.5%;
+    opacity: 1;
+}
+
+.box img{
+    transition: all 1s linear;
+}
+
+/* anh2 */
+.row2-1{
+    position: relative;
+    overflow: hidden;
+}
+
+.box-1{
+    position: absolute;
+    top: 61.5%;
+    opacity: 0;
+    transition: all 1s linear;
+    text-align: center;
+    background-color: gray;
+}
+
+.row2-1:hover .box-1{
+    top: 61.5%;
+    opacity: 1;
+}
+
+.box-1 img{
+    transition: all 1s linear;
+}
+
+
+/* anh3 */
+.row2-2{
+    position: relative;
+    overflow: hidden;
+}
+
+.box-2{
+    position: absolute;
+    top: 61.5%;
+    opacity: 0;
+    transition: all 1s linear;
+    text-align: center;
+    background-color: gray;
+}
+
+.row2-2:hover .box-2{
+    top: 61.5%;
+    opacity: 1;
+}
+
+.box-2 img{
+    transition: all 1s linear;
+}
+
+/* anh4 */
+.row2-3{
+    position: relative;
+    overflow: hidden;
+}
+
+.box-3{
+    position: absolute;
+    top: 61.5%;
+    opacity: 0;
+    transition: all 1s linear;
+    text-align: center;
+    background-color: gray;
+}
+
+.row2-3:hover .box-3{
+    top: 61.5%;
+    opacity: 1;
+}
+
+.box-3 img{
+    transition: all 1s linear;
+}
+
+/* anh5 */
+.row2-4{
+    position: relative;
+    overflow: hidden;
+}
+
+.box-4{
+    position: absolute;
+    top: 61.5%;
+    opacity: 0;
+    transition: all 1s linear;
+    text-align: center;
+    background-color: gray;
+}
+
+.row2-4:hover .box-4{
+    top: 61.5%;
+    opacity: 1;
+}
+
+.box-4 img{
+    transition: all 1s linear;
+}
+
+/* anh6 */
+.row2-5{
+    position: relative;
+    overflow: hidden;
+}
+
+.box-5{
+    position: absolute;
+    top: 61.5%;
+    opacity: 0;
+    transition: all 1s linear;
+    text-align: center;
+    background-color: gray;
+}
+
+.row2-5:hover .box-5{
+    top: 61.5%;
+    opacity: 1;
+}
+
+.box-5 img{
+    transition: all 1s linear;
+}
+
+
+
+/*  */
+.roww{
+    margin-top: 50px;
+}
+
+.fluid img{
+    max-width: 100%;
+    height: 100%;  
+}
+
+
+h3{
+    text-align: center;
+}
+
+.row3{
+    background-color: #0E1D28
+}
+
+.row3-1{
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.row3-2{
+    margin-top: 100px;
+}
+
