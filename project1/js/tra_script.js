@@ -69,6 +69,7 @@ $(document).ready(function(){
         quantity_cart = $("#quantity_prod").val();
         price_cart = 39000 * quantity_cart;
         content_cart = getSourceImg();
+        console.log(222, content_card);
         var win = window.open("http://127.0.0.1:5500/thanhtoan.html?id_cart=" + id_cart + "&quantity_cart=" + quantity_cart + "&price_cart=" + price_cart.toString() + "&content_cart=" + content_cart);
     });
 
