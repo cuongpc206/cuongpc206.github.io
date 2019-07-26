@@ -29,16 +29,16 @@ $(document).ready(function(){
     var getSourceImg = function(){
         var pathname = window.location.pathname;
         console.log(111,pathname);
-        if(pathname == "/chitiet.html") {
+        if(pathname == "/project1/chitiettra.html") {
             return "img/banhngot/1.png";
         }
-        else if (pathname == "/chitietnuocep.html") {
+        else if (pathname == "/project1/chitietnuocep.html") {
             return "img/nuocep/4.png";
         }
-        else if (pathname == "/chitiettra.html") {
+        else if (pathname == "/project1/chitiettra.html") {
             return "img/tra/12.png";
         }
-        else if (pathname == "/chitietsinhto.html") {
+        else if (pathname == "/project1/chitietsinhto.html") {
             return "img/sinhto/1.png";
         }
         else {
