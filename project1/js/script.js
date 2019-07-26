@@ -33,7 +33,7 @@ $(document).ready(function() {
         var pathname = window.location.pathname;
         console.log(pathname);
         if(pathname == "/chitiet.html") {
-            return "https://cuongpc206.github.io/project1/thanhtoan.html?id_cart=1&quantity_cart=3&price_cart=117000&content_cart=img/banhngot/1.png";
+            return "img/banhngot/1.png";
         }
         else if (pathname == "/chitietnuocep.html") {
             return "img/nuocep/4.png";
