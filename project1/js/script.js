@@ -33,7 +33,7 @@ $(document).ready(function() {
         var pathname = window.location.pathname;
         console.log(pathname);
         if(pathname == "/chitiet.html") {
-            return "img/banhngot/1.png";
+            return "http://127.0.0.1:5500/thanhtoan.html?id_cart=1&quantity_cart=1&price_cart=39000&content_cart=img/banhngot/1.png";
         }
         else if (pathname == "/chitietnuocep.html") {
             return "img/nuocep/4.png";
