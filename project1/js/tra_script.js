@@ -28,7 +28,7 @@ $(document).ready(function(){
 
     var getSourceImg = function(){
         var pathname = window.location.pathname;
-        console.log(pathname);
+        console.log(111,pathname);
         if(pathname == "/chitiet.html") {
             return "img/banhngot/1.png";
         }
