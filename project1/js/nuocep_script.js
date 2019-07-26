@@ -68,7 +68,7 @@ $(document).ready(function(){
         quantity_cart = $("#quantity_prod").val();
         price_cart = 39000 * quantity_cart;
         content_cart = getSourceImg();
-        var win = window.open("https://cuongpc206.github.io/project1/thanhtoan.html?id_cart=" + id_cart + "&quantity_cart=" + quantity_cart + "&price_cart=" + price_cart.toString() + "&content_cart=" + content_cart);
+        var win = window.open("http://127.0.0.1:5500/thanhtoan.html?id_cart=" + id_cart + "&quantity_cart=" + quantity_cart + "&price_cart=" + price_cart.toString() + "&content_cart=" + content_cart);
     });
 
     $("#plus_prod").click(function(){
@@ -86,7 +86,7 @@ $(document).ready(function(){
     });
 
     $("#giohang_link a").click(function(){
-        var win = window.open("https://cuongpc206.github.io/project1/giohang.html?id_cart=" + id_cart + "&quantity_cart=" + quantity_cart + "&price_cart=" + price_cart.toString() + "&content_cart=" + content_cart);
+        var win = window.open("http://127.0.0.1:5500/giohang.html?id_cart=" + id_cart + "&quantity_cart=" + quantity_cart + "&price_cart=" + price_cart.toString() + "&content_cart=" + content_cart);
     });
 
 });
