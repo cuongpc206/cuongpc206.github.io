@@ -29,7 +29,7 @@ $(document).ready(function(){
     var getSourceImg = function(){
         var pathname = window.location.pathname;
         console.log(111,pathname);
-        if(pathname == "/project1/chitiettra.html") {
+        if(pathname == "/project1/chitiet.html") {
             return "img/banhngot/1.png";
         }
         else if (pathname == "/project1/chitietnuocep.html") {
