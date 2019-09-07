@@ -32,16 +32,16 @@ $(document).ready(function() {
     var getSourceImg = function(){
         var pathname = window.location.pathname;
         console.log(pathname);
-        if(pathname == "/chitiet.html") {
+        if(pathname == "/project1/chitiet.html") {
             return "img/banhngot/1.png";
         }
-        else if (pathname == "/chitietnuocep.html") {
+        else if (pathname == "/project1/chitietnuocep.html") {
             return "img/nuocep/4.png";
         }
-        else if (pathname == "/chitiettra.html") {
+        else if (pathname == "/project1/chitiettra.html") {
             return "img/tra/12.png";
         }
-        else if (pathname == "/chitietsinhto.html") {
+        else if (pathname == "/project1/chitietsinhto.html") {
             return "img/sinhto/1.png";
         }
         else {
@@ -60,7 +60,10 @@ $(document).ready(function() {
     $("#cart_body").append(new_cart_data);
 
     $("#btn").one("click", function() {
-        
+        id_cart = 1;
+        quantity_cart = $("#quantity_prod").val();
+        price_cart = 39000 * quantity_cart;
+        content_cart = getSourceImg();
 
         // var win = window.open("http://127.0.0.1:5500/giohang.html?id_cart=" + id_cart + "&quantity_cart=" + quantity_cart + "&price_cart=" + price_cart.toString());
     });
@@ -70,16 +73,16 @@ $(document).ready(function() {
         quantity_cart = $("#quantity_prod").val();
         price_cart = 39000 * quantity_cart;
         content_cart = getSourceImg();
-        var win = window.open("http://127.0.0.1:5500/thanhtoan.html?id_cart=" + id_cart + "&quantity_cart=" + quantity_cart + "&price_cart=" + price_cart.toString() + "&content_cart=" + content_cart);
+        var win = window.open("https://cuongpc206.github.io/project1/thanhtoan.html?id_cart=" + id_cart + "&quantity_cart=" + quantity_cart + "&price_cart=" + price_cart.toString() + "&content_cart=" + content_cart);
     });
 
     $("#giohang_link a").click(function(){
-        var win = window.open("http://127.0.0.1:5500/giohang.html?id_cart=" + id_cart + "&quantity_cart=" + quantity_cart + "&price_cart=" + price_cart.toString() + "&content_cart=" + content_cart);
+        var win = window.open("https://cuongpc206.github.io/project1/giohang.html?id_cart=" + id_cart + "&quantity_cart=" + quantity_cart + "&price_cart=" + price_cart.toString() + "&content_cart=" + content_cart);
     });
 
     
     $("#back_to_main_dashboard").click(function(){
-        window.open("http://127.0.0.1:5500/index.html", "_self");
+        window.open("https://cuongpc206.github.io/project1/index.html", "_self");
     });
 
     $("#plus_prod").click(function(){
@@ -173,7 +176,7 @@ $(document).ready(function(){
     $("#cart_body").append(new_cart_data);
 
     $("#deal_action").click(function(){
-        var win = window.open("http://127.0.0.1:5500/thanhtoan.html?id_cart=" + id_cart_c + "&quantity_cart=" + quantity_cart_c + "&price_cart=" + price_cart_c.toString() + "&content_cart=" + content_cart_c);
+        var win = window.open("https://cuongpc206.github.io/project1/thanhtoan.html?id_cart=" + id_cart_c + "&quantity_cart=" + quantity_cart_c + "&price_cart=" + price_cart_c.toString() + "&content_cart=" + content_cart_c);
     }); 
 
     var new_deal = "<tr><th scope=\"row\">" + id_cart_c + "</th><td><img src=\"" + content_cart_c + "\" class=\"img-fluid\" alt=\"1\"></td><td>" + quantity_cart_c + 
