@@ -125,7 +125,7 @@
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 
     <script>
-        axios.get('https://danhsach-demo.herokuapp.com/users')
+        axios.get('https://quan-ly-hoc-vien.herokuapp.com/users')
             .then(function (response) {
                 // handle success
                 console.log(response.data);
@@ -147,7 +147,7 @@
                 $checked.each(function () {
                     axios({
                         method: 'DELETE',
-                        url: 'https://danhsach-demo.herokuapp.com/users' + '/' + this.value
+                        url: 'https://quan-ly-hoc-vien.herokuapp.com/users' + '/' + this.value
                     })
                     $(this).parent().parent().parent().hide(400);
 
